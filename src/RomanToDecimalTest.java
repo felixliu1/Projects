@@ -4,6 +4,7 @@ public class RomanToDecimalTest {
 
     @org.junit.Test
     public void romanToDecimalTest() {
+        // whitebox testing
         assertEquals(RomanToDecimal.romanToDecimal("XIV"), 14);
         assertEquals(RomanToDecimal.romanToDecimal("YOUR_MOM"), -1);
         assertNotEquals(RomanToDecimal.romanToDecimal("MCMLXIV"), -1);

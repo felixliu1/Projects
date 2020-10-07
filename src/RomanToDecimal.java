@@ -56,6 +56,9 @@ public class RomanToDecimal {
         public static void main(String[] args) {
         for(String roman : args) {
             int decimal = romanToDecimal(roman.toUpperCase());
+            // using the decimal calculated through romanToDecimal,
+            // finds the correct format for the roman numeral and checks
+            // if the inputted roman numeral was correct
             String romanOutput = "";
             int decimalInput = decimal;
             while (decimalInput >= 1000) {
